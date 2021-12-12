@@ -10,8 +10,8 @@ public class SimpleCalculatorTest {
 	public void testAdd() {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.add(1, 1), 2);
-		assertEquals(calc.subtract(5, 3), 2);
-		assertEquals(calc.multiply(2, 2), 4);
-		assertEquals(calc.divide(10, 2), 5);
+		assertEquals(calc.subtract(5, 3), 0);
+		assertEquals(calc.multiply(2, 2), 5);
+		assertEquals(calc.divide(10, 2), 4);
 	}
 }
